@@ -1,0 +1,11 @@
+    1  ls
+    2  cd medicine-store-management-django/
+    3  ls
+    4  source ./env/bin/activate
+    5  pip list
+    6  python3.8 -m pip list
+    7  python3.8 -m pip list >  requirements.txt
+    8  python3.8 --version
+    9  python3.8 --version >> python-version.txt
+   10  hiistory >> history.txt
+   11  history >> history.txt

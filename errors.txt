@@ -1,0 +1,11 @@
+# Error 1 :  While migrating database
+  File "/home/codespace/.local/lib/python3.9/site-packages/django/contrib/admin/widgets.py", line 151
+    '%s=%s' % (k, v) for k, v in params.items(),
+    ^
+SyntaxError: Generator expression must be parenthesized
+
+
+# Fix
+related_url += '?' + '&amp;'.join(('{}={}'.format(k, v) for k, v in params.items()))
+
+----------------------------------------------------------------
